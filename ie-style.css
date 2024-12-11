@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+		background-color:#f6f6f6;
+		margin: 0; 
+	 }
+#header
+{
+	background-image:url(images/header.gif);
+	background-repeat:repeat-x;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:white;
+	height:31px;
+
+}
+#header a:link{color:white;}
+#header a:hover{text-decoration:underline;}
+#header a:visited{color:white;}
+#content {
+		background-image:url(images/background.gif);
+		background-repeat:repeat-y;
+		background-position:center;
+		width:872px;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: auto; 
+	 }
+#contentdiv
+{
+
+
+}
+table {
+	font: 75% Verdana, Arial, Helvetica, sans-serif, sans-serif; 
+	padding: 0; 
+	margin-left: 8px; 
+	margin-top:0px;
+	margin-bottom:4px;
+	width:560px;
+	border-collapse: collapse; 
+	color: #333; 
+	background: #F3F5F7;
+}
+
+table a {color: #3A4856; text-decoration: none; border-bottom: 1px solid #C6C8CB;}  
+
+table a:visited {color: #777;}
+
+table a:hover {color: #000;}  
+
+table thead th {background: #f9f9f9; padding: 15px 10px; color: #78919b; text-align: left; font-weight: bold;}
+
+table thead th.date{background: #f9f9f9; width:68px; padding: 15px 10px; color: #78919b; text-align: left; font-weight: bold;}
+
+table tbody, table thead {border:none;}
+
+table tbody {border-bottom: 1px solid #eaeaea;}
+                      
+table tbody td, table tbody th {padding: 10px; border-left:none; border-right:none; border-top:1px solid #eaeaea; text-align: left; font-size:13px;}
+
+table tbody td.date { font-size:10px; padding: 10px;border-left:none; border-right:none; border-top:1px solid #eaeaea; text-align: left; }
+
+table tbody tr {background: #Fff;}
+
+table tbody tr.odd {background: #f9f9f9;}
+
+table tbody  tr:hover {background: #eeeeee; color: #111;}
+
+
+#column-right{ 
+	float:right;
+	width:260px;
+	margin:0px 10px;
+
+}
+
+h2.title-bar{
+	
+	background:#f2f2f2 ;
+	width:230px;
+	margin:8px;
+	margin-bottom:1px;
+	
+	padding:5px;
+
+	border:1px solid #ccc;
+	border-width:0 0 0 10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:2.0em;
+	color:#333;
+
+}
+h2.job-name
+{
+	margin:8px;
+	margin-bottom:0px;
+	padding:5px;
+	font-weight:bold;
+	
+	line-height:2.0em;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+h5.job-date
+{
+	margin:8px;
+	margin-right:10px;
+	margin-top:-23px;
+	padding:5px;
+	font-weight:normal;
+	line-height:0.3em;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.6em;
+}
+h4.addinfo
+{
+	margin:8px;
+	margin-right:10px;
+	padding:5px;
+	font-weight:bold;
+	line-height:0.3em;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+
+}
+#list table td
+{
+	font-size:0.8em;
+}
+.Box
+{
+	background-color:#f2f2f2;
+	border-top:none;
+	margin-left:8px;
+	margin-bottom:8px;
+	width:231px;
+	padding:9px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+
+}
+.Box ul
+{
+font-size:12px; margin-left:-5px; margin-top:5px;
+
+}
+.Box li
+{
+
+
+}
+
+h2.Box {
+	margin:8px;
+	margin-bottom:1px;
+	width:239px;
+	padding:5px;
+	font-weight:bold;
+	line-height:2.0em;
+	color:#333;
+	background:#f2f2f2 ;
+	border-top:10px solid #ccc;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.emp_logo img{
+	background-color:#fff;
+	border-top:none;
+
+	margin-bottom:4px;
+	margin-left:15px;
+	padding-left:15px;
+	padding-top:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+#list
+{
+	float:left;
+	background-color:#fff;
+	border:1px solid #e7e7e7;
+	padding:0px;
+	margin-left:14px;
+	margin-top:8px;
+
+	width:575px;
+
+}
+
+#list h2
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:540px;
+
+}
+#list p
+{	
+	margin-left:10px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+
+}
+
+#searchtable
+{
+	float:left;
+	backgr
